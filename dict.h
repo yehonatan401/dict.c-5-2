@@ -50,12 +50,3 @@ int dict_get(dict* dic,const char *key) {
 
     return -1;
 }
-
-
-int main() {
-    dict di;
-
-    dict_set(&di,"key",8);
-    printf("%d",dict_get(&di,"key"));
-
-}
